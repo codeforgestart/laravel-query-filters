@@ -1,0 +1,24 @@
+{
+    "name": "codeforgestart/laravel-query-filters",
+    "description": "Reusable query filtering utilities for Laravel applications",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/database": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\LaravelQueryFilters\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\LaravelQueryFilters\\FilterServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
