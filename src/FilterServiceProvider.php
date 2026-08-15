@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelQueryFilters;
+namespace CodeForgeStart\LaravelQueryFilters;
 
 use Illuminate\Support\ServiceProvider;
 
